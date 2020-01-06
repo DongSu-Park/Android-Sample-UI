@@ -121,26 +121,27 @@
 
 ## 4. 참고 문헌 및 링크
 1. 공통
+* 참고 문헌 : Do it! 안드로이드 앱 프로그래밍 6판 - 이지스퍼브리싱 (정재곤 저)
 * 전체 참고 소스 : https://github.com/mike-jung/DoItAndroid
 * 구글 안드로이드 공식 문서 : https://developer.android.com/docs
 * 화면전환 애니메이션 : https://boheeee.tistory.com/14
-* 인트로 화면 참고 : https://basicto.tistory.com/629
+* 인트로 화면 : https://basicto.tistory.com/629
 * 아이콘 이미지 : https://www.freepik.com/
 
 2. 서비스
-* 음악 서비스 기능 구현 참고 : http://bitly.kr/0uC1Je6
-* SMS 위험 권한 구현 참고 : https://hongku.tistory.com/209
+* 음악 서비스 기능 : http://bitly.kr/0uC1Je6
+* SMS 위험 권한 : https://hongku.tistory.com/209
 
 3. 그래픽
-* 그림판 구현 참고 : https://honeyinfo7.tistory.com/33
+* 그림판 구현 : https://honeyinfo7.tistory.com/33
 * ColorPicker : https://github.com/yukuku/ambilwarna
 
 4. 음악
-* 음악 미디어 플레이어 참고 : https://bitsoul.tistory.com/28
+* 음악 미디어 플레이어 : https://bitsoul.tistory.com/28
 
 5. 유튜브 동영상
 * 애플 기기 이미지 및 웹사이트 : https://www.apple.com/
                                https://www.youtube.com/user/Apple
 
 6. 지도
-* 검색 기능 추가 참고 : https://blog.naver.com/qbxlvnf11/221183308547
+* 검색 기능 추가 : https://blog.naver.com/qbxlvnf11/221183308547
