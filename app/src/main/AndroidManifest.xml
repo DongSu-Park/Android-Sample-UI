@@ -28,7 +28,7 @@
         <!--개인 구글 api 키를 value에 넣어주시기 바랍니다.-->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="" />
+            android:value=" " />
 
         <activity android:name=".MainActivity">
             <intent-filter>
