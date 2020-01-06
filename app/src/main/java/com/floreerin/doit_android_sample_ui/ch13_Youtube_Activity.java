@@ -19,7 +19,8 @@ public class ch13_Youtube_Activity extends YouTubeBaseActivity {
     YouTubePlayerView playerView;
     WebView webView;
 
-    private static String API_KEY = "AIzaSyBxVspUlpZtYwVsQT6tzTWDyv9D6IAKXT4";
+//  개인용 유튜브 API_KEY를 여기에 넣어주시기 바랍니다.
+    private static String API_KEY = " ";
     String youtube_ID;
     String web_Url;
 
