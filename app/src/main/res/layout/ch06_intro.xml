@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="30dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@drawable/intro_img_6th"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_6th"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        app:fontFamily="@font/nanumbarungothicbold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/content_6th"
+        android:layout_marginBottom="20dp"
+        android:textSize="14sp"
+        android:lineSpacingExtra="5sp"
+        app:fontFamily="@font/nanumbarungothic"/>
+
+    <Button
+        android:id="@+id/okBtn_6th"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="#498de1"
+        android:padding="10dp"
+        android:text="@string/okBtn_text"
+        android:textColor="#ffffff"
+        app:backgroundTint="#498de1"
+        app:fontFamily="@font/nanumbarungothic" />
+
+    <TextView
+        android:id="@+id/backBtn_6th"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="BackTitle"
+        android:text="@string/backBtn_text"
+        app:fontFamily="@font/nanumbarungothic" />
+</LinearLayout>

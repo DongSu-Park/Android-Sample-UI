@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">안드로이드 Sample UI</string>
+    <string name="title_5th">프래그먼트 (Fragment)</string>
+    <string name="content_5th">안드로이드에서 화면에 출력되는 UI 구성의 가장 기본이 되는 요소는 Activity입니다.
+        안드로이드 앱이 TextView, Button 등의 위젯을 화면에 표시하기 위해서는 최소한 하나의 Activity는 가져야 하며,
+        Activity가 화면에 표시되는 순간 자식 View 위젯들이 화면에 그려지게 됩니다. Activity는 일반적으로 화면을 가득 채우지만,
+        화면의 일부에만 표시되도록 만들어 다른 Activity위에 띄울 수도 있습니다.</string>
+
+    <string name="title_6th">서비스와 수신자</string>
+    <string name="content_6th">안드로이드의 앱을 구성하는 것은 화면 구성뿐만 아니라 여러가지 기능을 가지고 있습니다.
+        이 기능들을 백엔드(BackEnd)서비스라 합니다. 구성으로는 서비스, 브로드캐스트 리시버, 위험권한이 있습니다. </string>
+
+    <string name="title_7th">선택위젯 (스피너)</string>
+    <string name="content_7th">선택위젯은 여러 개의 아이템 중에서 하나를 선택하는 리스트 형태로 만들어진 위젯을 말합니다.
+        대표적인 것은 리스트 뷰, 콤보 박스, 스피너 등이 있습니다. 여기서는 스피너를 사용한 예제를 보여줍니다.</string>
+
+    <string name="title_11th">DataBase</string>
+    <string name="content_11th">안드로이드 단말이나 아이폰과 같은 스마트폰에서는 데이텁이스를 기본으로 제공하고 있기 때문에
+        앱이 단말에 데이터를 저장할 때는 대부분 데이터베이스를 사용합니다. 여기서 나오는 데이터베이스 예시는 레코드 조회
+        , 삽입, 삭제, 수정 기능을 나타내고 있습니다.</string>
+
+    <string name="title_12th">그래픽</string>
+    <string name="content_12th">화면에 추가할 수 있는 뷰에는 다양한 그리기 방법을 적용할 수 있습니다.
+        \n안드로이드에서는 그래픽을 사용할 때 캔버스(Canvas) 객체를 호출하여 뷰 위에 그래픽을 그릴수 있습니다.
+        \n여기서는 간단한 그림판을 만들어 캔버스 객체를 사용하는 예시를 보여줍니다.</string>
+
+    <string name="title_13th">멀티미디어</string>
+    <string name="content_13th">멀티미디어 기능은 단말에서 사진을 찍거나 유튜브로 동영상을 보거나 또는 최신 음악을 듣는 등
+     여러분이 스마트폰을 사용하는 이유 중의 하나입니다. 여기서는 프레그먼트 메뉴를 사용하여 사진 찍기, 음악 재생, 동영상 재생
+    , 유튜브 재생의 기능을 하나씩 확인 할 수 있습니다.</string>
+
+    <string name="title_14th">구글 지도 (Google Maps)</string>
+    <string name="content_14th">구글에서 제공하는 Google Maps API를 통해 안드로이드에서 현재 위치의 지도를 보여줍니다.</string>
+
+    <string name="okBtn_text">OK</string>
+    <string name="backBtn_text">Back</string>
+    <string name="title_activity_navigation_main">Navigation_main</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Do It! Android App Programming</string>
+    <string name="nav_header_subtitle">floreerin@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <string name="content_imac_pro">Apple invited Buck and five other renowned artists to create a personal piece of work using iMac Pro.
+        The project was an opportunity for each of them to use this incredibly capable tool to define power through the films
+        they made</string>
+    <string name="youtube_imac_pro">xzvc3q9CtQ4</string>
+    <string name="web_imac_pro">https://www.apple.com/kr/imac-pro/</string>
+
+    <string name="content_macbook_pro">A pro for the pros. The new MacBook Pro is the most powerful MacBook ever.
+        It features an immersive 16-inch Retina display, up to an 8-core processor, next-generation graphics,
+        and up to 64GB of memory. It has the largest battery capacity ever in a MacBook Pro, up to 8TB of SSD storage,
+        and a new Magic Keyboard. In other words, it’s the world’s best pro notebook.</string>
+    <string name="youtube_macbook_pro">ysRigNyavF4</string>
+    <string name="web_macbook_pro">https://www.apple.com/kr/macbook-pro-16/</string>
+
+    <string name="content_ipad_pro">iPad Pro is all new, all screen, and all powerful.
+        Now with an edge-to-edge Liquid Retina display, Face ID, and an A12X Bionic chip,
+        and introducing the new Apple Pencil and Smart Keyboard Folio. It’s like a computer,
+        unlike any computer.</string>
+    <string name="youtube_ipad_pro">YJ5q8Wrkbdw</string>
+    <string name="web_ipad_pro">https://www.apple.com/kr/ipad-pro/</string>
+
+    <string name="content_iPhone_11_pro">The first iPhone to be called Pro. Shoot with all-new Ultra Wide,
+        Wide, and Telephoto cameras. Take photos in drastically lower light with Night mode.
+        Capture the highest-quality video of any smartphone. All powered by A13 Bionic, the fastest chip in a smartphone,
+        and with an unprecedented leap in battery life. Oh, and it’s water resistant up to 4 meters for 30 minutes.</string>
+    <string name="youtube_iPhone_11_pro">cVEemOmHw9Y</string>
+    <string name="web_iPhone_11_pro">https://www.apple.com/kr/iphone-11-pro/</string>
+
+    <string name="content_apple_watch">New Always-On Retina display.
+        Features to help you stay active, healthy, and connected. Introducing Apple Watch Series 5.
+        This watch tells time. (Among other things.)</string>
+    <string name="youtube_apple_watch">5bvcyIV4yzo</string>
+    <string name="web_apple_watch">https://www.apple.com/kr/apple-watch-series-5/</string>
+
+
+    <string name="content_airpods_pro">AirPods Pro. Active Noise Cancellation for immersive sound.
+        Transparency mode to hear what’s happening around you. And three sizes of silicone tips for a customizable fit.
+        It’s magic like you’ve never heard. Order online now. Available now.</string>
+    <string name="youtube_airpods_pro">IC9urbiVp4M</string>
+    <string name="web_airpods_pro">https://www.apple.com/kr/airpods-pro/</string>
+
+</resources>

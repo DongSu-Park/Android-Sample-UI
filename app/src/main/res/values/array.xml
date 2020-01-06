@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="이미지">
+        <item>이미지 01</item>
+        <item>이미지 02</item>
+        <item>이미지 03</item>
+        <item>이미지 04</item>
+        <item>이미지 05</item>
+    </string-array>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/ch13_nav_1"
+            android:icon="@drawable/list"
+            android:title="카메라" />
+        <item
+            android:id="@+id/ch13_nav_2"
+            android:icon="@drawable/list"
+            android:title="음악" />
+        <item
+            android:id="@+id/ch13_nav_3"
+            android:icon="@drawable/list"
+            android:title="동영상" />
+        <item
+            android:id="@+id/ch13_nav_4"
+            android:icon="@drawable/list"
+            android:title="유튜브 동영상" />
+    </group>
+
+</menu>

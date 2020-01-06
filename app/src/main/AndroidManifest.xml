@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.floreerin.doit_android_sample_ui">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.Camera"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_book"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_book_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".ch05_view_MainActivity"></activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBxVspUlpZtYwVsQT6tzTWDyv9D6IAKXT4" />
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ch05_Intro" />
+        <activity android:name=".ch05_tabtop_MainActivity" />
+        <activity
+            android:name=".ch05_Navigation_MainActivity"
+            android:label="@string/title_activity_navigation_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ch06_Intro" />
+        <activity
+            android:name=".ch06_MainActivity"
+            android:label="@string/title_activity_navigation_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <service
+            android:name=".ch06_MusicService"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="com.floreerin.doit_android_sample_ui.ch06_MusicService" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".ch07_Intro" />
+        <activity android:name=".ch07_MainActivity" />
+        <activity android:name=".ch11_Intro" />
+        <activity android:name=".ch11_MainActivity" />
+        <activity android:name=".ch12_Intro" />
+        <activity android:name=".ch12_MainActivity" />
+        <activity android:name=".ch13_Intro" />
+        <activity
+            android:name=".ch13_MainActivity"
+            android:label="@string/title_activity_navigation_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ch13_Youtube_Activity" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.floreerin.doit_android_sample_ui.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/external" />
+        </provider>
+
+        <activity android:name=".ch14_Intro" />
+        <activity android:name=".ch14_MapsActivity" />
+    </application>
+
+</manifest>

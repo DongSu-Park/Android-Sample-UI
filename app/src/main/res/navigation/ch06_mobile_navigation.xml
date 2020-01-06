@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/ch06_nav_view1"
+        android:label="서비스"
+        tools:layout="@layout/ch06_fragment1" />
+
+    <fragment
+        android:id="@+id/ch06_nav_view2"
+        android:label="브로드케스트"
+        tools:layout="@layout/ch06_fragment2" />
+</navigation>
