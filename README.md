@@ -123,6 +123,7 @@
 1. 공통
 * 참고 문헌 : Do it! 안드로이드 앱 프로그래밍 6판 - 이지스퍼브리싱 (정재곤 저)
 * 전체 참고 소스 : https://github.com/mike-jung/DoItAndroidRev6
+ (6판은 sdk 28를 베이스로 했기 때문에 androidx와 호환이 안됩니다. 최근에 저자분이 7판 내용으로 수정된 소스가 있으니 참고하시기 바랍니다.)
 * 구글 안드로이드 공식 문서 : https://developer.android.com/docs
 * 화면전환 애니메이션 : https://boheeee.tistory.com/14
 * 인트로 화면 : https://basicto.tistory.com/629
