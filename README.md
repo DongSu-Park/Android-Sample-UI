@@ -122,7 +122,7 @@
 ## 4. 참고 문헌 및 링크
 1. 공통
 * 참고 문헌 : Do it! 안드로이드 앱 프로그래밍 6판 - 이지스퍼브리싱 (정재곤 저)
-* 전체 참고 소스 : https://github.com/mike-jung/DoItAndroid
+* 전체 참고 소스 : https://github.com/mike-jung/DoItAndroidRev6
 * 구글 안드로이드 공식 문서 : https://developer.android.com/docs
 * 화면전환 애니메이션 : https://boheeee.tistory.com/14
 * 인트로 화면 : https://basicto.tistory.com/629
